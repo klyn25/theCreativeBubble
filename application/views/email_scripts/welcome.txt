@@ -1,0 +1,6 @@
+Dear %usr_fname% %usr_lname%,
+
+Welcome to The Creative Bubble!  We are glad you decided to join us.
+
+Regards,
+The Team

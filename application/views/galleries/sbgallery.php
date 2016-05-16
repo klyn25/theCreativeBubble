@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Harmony</title>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Procedural Drawing Tool"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <style type="text/css">
+            *
+            {
+                font-family: "Lucida Grande";
+                font-size: 12px;
+            }
+
+            body
+            {
+                margin: 0px;
+                overflow: hidden;
+            }
+
+            select
+            {
+                text-transform: uppercase;
+                font-size: 11px;
+                text-align: center;
+            }
+
+            hr
+            {
+                border: 0;
+                height: 1px;
+                background-color: #ccc;
+                margin: 20px 0px;
+            }
+
+            label
+            {
+                font-size: 10px;
+                font-weight: bold;
+                text-shadow: 0px 1px 3px black, 0px 0px 4px black, 0px 3px 10px black;
+                color: white;
+            }
+
+            .menu
+            {
+                position:absolute;
+                left:0px;
+            }
+
+            .about
+            {
+                width: 340px;
+                border-radius:4px;
+                border: 1px solid #fff;
+                -webkit-background-clip:padding-box;
+            }
+
+            .gui
+            {
+                color: #ccc;
+                background: #222 url(img/menu.png) left bottom repeat-x;
+                padding: 5px 10px;
+                text-align: center;
+                text-transform: uppercase;
+                line-height: 18px;
+                cursor: default;
+                text-shadow: 0px 1px 1px black;
+            }
+
+            .button
+            {
+                padding: 2px 8px;
+                background-color: #444;
+                border-radius: 2px;
+                border: 1px solid #888;
+                cursor: pointer;
+            }
+
+            .button:hover, .button:active
+            {
+                text-shadow: 0px 1px 3px black;
+            }
+
+            a, a:hover, a:visited {
+                color: #abf;
+                text-decoration: none;
+            }
+
+            .key
+            {
+                padding: 0px 8px;
+                margin-left: 1px;
+                background-color: #222;
+                border-radius: 3px;
+            }
+
+            .well {
+                border-radius: 4px;
+                border: 1px solid black;
+                -webkit-box-shadow: 0px 1px 0px rgba(255,255,255,0.2);
+                margin-right: 8px;
+            }
+
+            .menu .well {
+                margin-bottom: -6px;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/brushes/circles.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/brushes/chrome.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/brushes/fur.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/brushes/grid.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/brushes/longfur.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/brushes/ribbon.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/brushes/shaded.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/brushes/simple.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/brushes/sketchy.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/brushes/squares.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/brushes/web.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/brushes/testing.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/brushes/mirrorshaded.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/brushes/mirrorsimple.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/brushes/mirrorsketchy.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/brushes/mirrorweb.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/colorutils.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/colorselector.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/palette.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/menu.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/about.js'); ?>"></script>
+        <script type="text/javascript" src="<?php echo base_url('assets/js/harmony/main.js'); ?>"></script>
+    </body>
+</html>
